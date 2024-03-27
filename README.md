@@ -17,8 +17,19 @@ This application uses the following AWS services:
 1. **Create an S3 bucket**: Create a new bucket in S3. This will be used to host your web application.
 
 2. **Upload files**: Upload your HTML, CSS, and JavaScript files to the S3 bucket.
+![image](https://github.com/Dana-sjovie/AWS_Serverless_Webpage/assets/85312549/1528eb2d-e916-49f7-9b0f-cdec14238af0)
+
+
+
+
 3. **Create a cloudfront distrubution**:CloudFront and S3 can handle any amount of traffic. It’s also cost-effective, as you only pay for what you use
+![image](https://github.com/Dana-sjovie/AWS_Serverless_Webpage/assets/85312549/5b480261-42a9-4e81-92a1-fdf6ac667d8d)
+
+
+
 4. **Amazon Route 53:** A highly available Domain Name System (DNS) web service. It is used to route end users’ requests to the CloudFront distribution
+
+
 5. . **Create a Lambda function**: Create a new Lambda function. This will serve as your backend.
 6. . . **Configure DynamoDB**: Create a new table in DynamoDB. This will be used to store your application data.
 
