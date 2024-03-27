@@ -28,10 +28,21 @@ This application uses the following AWS services:
 
 
 4. **Amazon Route 53:** A highly available Domain Name System (DNS) web service. It is used to route end users’ requests to the CloudFront distribution
+![image](https://github.com/Dana-sjovie/AWS_Serverless_Webpage/assets/85312549/1ca8c304-c166-4c5a-8ed3-6bd607025d8d)
+
+
 
 
 5. . **Create a Lambda function**: Create a new Lambda function. This will serve as your backend.
-6. . . **Configure DynamoDB**: Create a new table in DynamoDB. This will be used to store your application data.
+![image](https://github.com/Dana-sjovie/AWS_Serverless_Webpage/assets/85312549/33e551af-00c0-4b17-b45b-79b77d261dd2)
+
+
+
+
+7. . . **Configure DynamoDB**: Create a new table in DynamoDB. This will be used to store your application data.
+![image](https://github.com/Dana-sjovie/AWS_Serverless_Webpage/assets/85312549/04deaadc-d8ea-4441-b68c-9f93e7caaeab)
+
+
 
 
 Open your web application URL in a web browser to use the application.
